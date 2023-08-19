@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(75deg,purple,rgb(163, 21, 21));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container,#otpwindow{
+    height: 400px;
+    width:450px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+input{
+    width:80%;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    box-shadow:5px 5px 5px black;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+#getOTP{
+    font-size: 30px;
+    color: rgb(125, 250, 0);
+}
+#close{
+    font-size: 40px;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    cursor: pointer;
+}
+#otpwindow{
+    display: none;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
